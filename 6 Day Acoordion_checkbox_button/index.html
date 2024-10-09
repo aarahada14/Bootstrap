@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    
+    <section>
+        <div class="container my-5">
+            <div class="accordion" id="parent">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#fist">fist</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="fist" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#second">second</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="second" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#third">third</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="third" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 shadow p-4 rounded-3">
+                    <div class="form-floating">
+                          <input type="text" class="form-control" id="username" placeholder="Enter name">
+                    <label for="username">Username</label>
+                    </div>
+                  
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-text">📧</span>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="username" placeholder="Enter email">
+                            <label for="username">Email</label>
+                        </div>
+                    
+                    </div>
+                   
+                    <br/>
+
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter Password">
+                    <br/>
+                    <label for="username">Username</label>
+                    <input type="type" class="form-control" id="username" placeholder="Enter Number">
+                    <br/>
+
+                    <select class="form-select">
+                        <option value="">Welcoem to the red</option>
+                        <option value="">Welcoem to the red</option>
+                        <option value="">Welcoem to the red</option>
+                        <option value="">Welcoem to the red</option>
+                    </select>
+
+                    <br/>
+
+                    <button class="btn btn-dark">Signup</button>
+                </div>
+
+                <div class="col-lg-4 shadow p-4 rounded-3">
+
+                    <div class="form-check form-switch">
+                         <label for="" class="form-check-label">checkbox</label>
+                        <input type="checkbox" class="form-check-input">
+                    </div>
+                    <br/>
+
+                    <div class="form-check">
+                        <input type="radio" class="btn-check" id="checkbtn1" name="check" >
+                        <label for="checkbtn1" class="btn btn-outline-success">click1</label>
+
+                        <input type="radio" class="btn-check" id="checkbtn2" name="check" >
+                        <label for="checkbtn2" class="btn btn-outline-success">click2</label>
+
+                        <input type="radio" class="btn-check" id="checkbtn3" name="check" >
+                        <label for="checkbtn3" class="btn btn-outline-success">click3</label>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
